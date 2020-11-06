@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   font-size: 3.6rem;
-  padding: 5rem 0rem;
+  padding: 2rem 0rem;
 }
 
 a {
@@ -37,7 +37,7 @@ button {
 }
 
 nav {
-  background: #40414B;
+  background: #CD4551;
   color: #fff;
   padding: 3rem;
 }
@@ -54,4 +54,25 @@ nav ul {
 nav li {
   float: left;
   margin: 0 3rem;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url(./img/cooking\ master\ boy.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  min-height: 90vh;
+  padding-top: 15rem;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+}
+
+.hero-section button {
+  background: #CD4551;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 4rem;
 }
