@@ -89,3 +89,27 @@ nav li {
   padding: 5rem;
   text-align: center;
 }
+
+.form-section {
+  height: 100vh;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+}
+
+form button {
+  background: #CD4551;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 4rem;
+}
