@@ -18,6 +18,18 @@ html {
   width: 30rem;
 }
 
-box2 {
+.box1 {
   float: left;
+}
+
+.box2 {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.box3 {
+  width: 100%;
 }
