@@ -13,7 +13,11 @@ html {
 .box3 {
   border: 2px solid black;
   font-size: 2.8rem;
-  height: 50rem;
+  height: 30rem;
   margin: 1rem;
-  max-width: 80rem;
+  width: 30rem;
+}
+
+box2 {
+  float: left;
 }
